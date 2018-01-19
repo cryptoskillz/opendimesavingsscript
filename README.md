@@ -23,7 +23,9 @@ in terminal type
 
  node buy.js buy btcaddress amount day apikey apisecret live
 
- btcaddress : The address of the opendime account you want to send to
+ Parameter explanations 
+
+ btcaddress : The address of the Opendime account you want to send to
 
  amount : The amount of BTC you want to send
 
