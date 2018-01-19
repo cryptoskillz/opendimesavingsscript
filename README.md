@@ -19,13 +19,18 @@ Open a terminal in mac or get super putty in Windows, Unix guys you know what to
 
 in terminal type
 
- node buy.js buy <btcaddress> <amount> <day> <apikey> <apisecret> <live>
+ node buy.js buy btcaddress amount day apikey apisecret live
 
  <btcaddress> : The address of the opendime account you want to send to
+
  <amount> : The amount of BTC you want to send
+
  <day> : The day of the month you want to make the transfer
+
  <apikey> : Coinbase API key (the one you got when you created the app) NEVER SHARE THIS WITH ANYONE
+
  <apisecret> : Coinbase API Secret (the one you got when you created the app) NEVER SHARE THIS WITH ANYONE
+
  <live> : Do the transfer if you set it to 0 it will not do the transfer if you set it to 1 it will
 
  TO DO
