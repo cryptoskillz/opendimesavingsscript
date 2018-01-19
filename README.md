@@ -9,7 +9,9 @@ I do not recomend you do use this unless you have at least a basic understanding
 Prereqs
 
 Make sure you have Node.js installed https://nodejs.org/en/
+
 A Coinbase account https://www.coinbase.com/join/5a2a56453ce93100d21973f4
+
 Create a Coinbase app https://www.coinbase.com/settings/api give it access to read account, transfer and buy funds
 
 Usage
@@ -21,17 +23,17 @@ in terminal type
 
  node buy.js buy btcaddress amount day apikey apisecret live
 
- <btcaddress> : The address of the opendime account you want to send to
+ btcaddress : The address of the opendime account you want to send to
 
- <amount> : The amount of BTC you want to send
+ amount : The amount of BTC you want to send
 
- <day> : The day of the month you want to make the transfer
+ day : The day of the month you want to make the transfer
 
- <apikey> : Coinbase API key (the one you got when you created the app) NEVER SHARE THIS WITH ANYONE
+ apikey : Coinbase API key (the one you got when you created the app) NEVER SHARE THIS WITH ANYONE
 
- <apisecret> : Coinbase API Secret (the one you got when you created the app) NEVER SHARE THIS WITH ANYONE
+ apisecret : Coinbase API Secret (the one you got when you created the app) NEVER SHARE THIS WITH ANYONE
 
- <live> : Do the transfer if you set it to 0 it will not do the transfer if you set it to 1 it will
+ live : Do the transfer if you set it to 0 it will not do the transfer if you set it to 1 it will
 
  TO DO
 
